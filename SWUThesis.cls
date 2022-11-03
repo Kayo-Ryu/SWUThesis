@@ -143,6 +143,7 @@
 %Reference Setting
 \newcommand\makereference{
     \newpage
+    \addcontentsline{toc}{section}{参考文献}
     \begingroup
     \makeatletter
     \def\section{\@startsection{section}{1}{\z@}{3.0ex plus 1.5ex minus 1.5ex}% V1.6 3.0ex from 3.5ex
